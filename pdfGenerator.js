@@ -22,7 +22,7 @@ async function generatePDF(data, outputFilePath) {
   await page.pdf({ path: outputFilePath, format: 'A4' });
   await browser.close();
 
-  console.log('✅ PDF with QR generated:', outputFilePath);
+  console.log('PDF with QR generated:', outputFilePath);
 }
 
 module.exports = generatePDF;

@@ -4,5 +4,5 @@
 [2025-07-19T01:00:04.360Z] Saved transaction txn_1752886804358
 [2025-07-19T01:00:04.363Z] Synced txn_1752886804358
 [2025-07-19T01:00:04.365Z] Synced txn_test
-[2025-07-19T01:13:26.796Z] ✅ Transaction txn_test saved & PDF generated.
-[2025-07-19T01:42:55.361Z] ✅ Transaction txn_test saved & PDF generated.
+[2025-07-19T01:13:26.796Z] Transaction txn_test saved & PDF generated.
+[2025-07-19T01:42:55.361Z] Transaction txn_test saved & PDF generated.

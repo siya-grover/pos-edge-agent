@@ -26,7 +26,7 @@ async function runAgent() {
       await generatePDF(data, pdfPath);
 
       fs.unlinkSync(filePath); // Delete after processing
-      log(`✅ Transaction ${data.id} saved & PDF generated.`);
+      log(` Transaction ${data.id} saved & PDF generated.`);
     }
   }
 

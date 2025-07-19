@@ -9,5 +9,5 @@ app.get('/latest-version', (req, res) => {
 });
 
 app.listen(port , () => {
-  console.log(`🚀 Update server running at http://localhost:${port}`);
+  console.log(` Update server running at http://localhost:${port}`);
 });

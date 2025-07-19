@@ -9,5 +9,5 @@ const testData = {
 const outputFilePath = path.join(__dirname, 'output', 'test_receipt.pdf');
 
 generatePDF(testData, outputFilePath)
-  .then(() => console.log('🎉 Test PDF created successfully!'))
-  .catch(err => console.error('❌ Error generating test PDF:', err));
+  .then(() => console.log('Test PDF created successfully!'))
+  .catch(err => console.error('Error generating test PDF:', err));
